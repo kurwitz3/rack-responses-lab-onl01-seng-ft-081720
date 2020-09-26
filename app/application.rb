@@ -4,6 +4,6 @@ class Application
     
     time = Time.new
 
-   if time.hour > 9 && time.hour < 19
-    // Your code
+   if time.hour > 12 && time.hour < 5
+     resp.write ""
 end
